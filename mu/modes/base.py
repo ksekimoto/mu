@@ -41,6 +41,13 @@ BOARD_IDS = set([
     (0x239A, 0x8019),  # circuitplayground m0 PID
     (0x239A, 0x8015),  # circuitplayground m0 PID prototype
     (0x239A, 0x801B),  # feather m0 express PID
+    (0x1A86, 0x7523),  # Wemos D1 Mini USB VID, PID
+    (0x10C4, 0xEA60),  # Wemos D1 Mini Pro USB VID, PID
+    (0x0403, 0x6015),  # Sparkfun ESP32 Thing VID, PID
+    (0x045B, 0x0234),  # GR-SAKURA
+    (0x2A50, 0x0277),  # GR-CITRUS
+    (0x045B, 0x025A),  # GR-ROSE
+    (0xF055, 0x9800),  # pyboard
 ])
 
 

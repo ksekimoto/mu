@@ -3,6 +3,8 @@ from .adafruit import AdafruitMode
 from .microbit import MicrobitMode
 from .debugger import DebugMode
 from .pygamezero import PyGameZeroMode
+from .esp import ESPMode
+from .rxboard import RxboardMode
 
 __all__ = ['PythonMode', 'AdafruitMode', 'MicrobitMode', 'DebugMode',
-           'PyGameZeroMode', ]
+           'PyGameZeroMode', 'ESPMode', 'RxboardMode', ]

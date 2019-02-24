@@ -360,6 +360,10 @@ class Window(QMainWindow):
         self.input_buffer = []
         self.serial = QSerialPort()
         self.serial.setPortName(port)
+        self.serial.setBaudRate(QSerialPort.Baud115200)
+        self.serial.setDataBits(QSerialPort.Data8)
+        self.serial.setParity(QSerialPort.Parity.NoParity)
+        self.serial.setStopBits(QSerialPort.StopBits.OneStop)
         if self.serial.open(QIODevice.ReadWrite):
             self.serial.setDataTerminalReady(True)
             if not self.serial.isDataTerminalReady():
